@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 
 const MaternityLeave = () => {
   return (
-    <div className="max-w-3xl h-screen mx-auto p-10 border border-gray-300 text-black bg-white shadow-lg">
+    <div className="max-w-3xl mx-auto mt-16 p-10 border border-gray-300 text-black bg-white shadow-lg page-break">
       <Header />
 
       <div className="flex justify-between text-sm font-medium my-6 underline">

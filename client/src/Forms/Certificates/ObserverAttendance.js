@@ -2,7 +2,7 @@ import React from 'react';
 
 const ObserversAttendance = () => {
   return (
-    <div className="max-w-5xl mx-auto p-10 text-black bg-white shadow-lg border border-gray-300">
+    <div className="max-w-3xl mx-auto mt-16 p-10 border border-gray-300 text-black bg-white shadow-lg page-break">
       <h2 className="text-center font-bold text-xl uppercase text-blue-900">
         NIZAM’S INSTITUTE OF MEDICAL SCIENCES
       </h2>

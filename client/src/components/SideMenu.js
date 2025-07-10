@@ -12,17 +12,17 @@ const Sidebar = () => {
  
     {
       id: 'ApplicationFormBPT',
-      label: 'Application Form BPT',
+      label: 'Bachelor of Physiotherapy Application',
       hasSubMenu: true,
       subItems: [
        
-        {id:'AdministrativeDetails' ,label:'Administrative Details', path:'/ap1' },
-        {id:'ApplicationFeeDetails' ,label:'Application Fee Details', path:'/appfee' },
-        {id:'PersonalDetails' ,label:'Personal Details', path:'/personaldetails' },
-        {id:'IdentityDetails' ,label:'Identity Details', path:'/identitydetails' },
-        {id:'ContactInformation' ,label:'Contact Information', path:'/contact' },
-        {id:'IntermediateDetails' ,label:'Intermediate Details', path:'/inter' },
-        {id:'CourseDetails' ,label:'Course Details', path:'/coursedetails' },
+        {id:'AdministrativeDetails' ,label:'Administrative Information', path:'/ap1' },
+        {id:'ApplicationFeeDetails' ,label:'Fee Payment Details', path:'/appfee' },
+        {id:'PersonalDetails' ,label:'Personal Information', path:'/personaldetails' },
+        {id:'IdentityDetails' ,label:'Identity Verification', path:'/identitydetails' },
+        {id:'ContactInformation' ,label:'Contact Details', path:'/contact' },
+        {id:'IntermediateDetails' ,label:'Educational Background-Intermediate Level', path:'/inter' },
+        {id:'CourseDetails' ,label:'Course selection', path:'/coursedetails' },
         {id:'AcademicRecord' ,label:'Academic Record', path:'/academicrecord' }, 
         {id:'DocumentsUpload' ,label:'Documents Upload', path:'/upload' },
      
@@ -31,20 +31,20 @@ const Sidebar = () => {
     },
     {
       id: 'Application Report BPT',
-      label: 'Application Report BPT',
+      label: 'BPT Application Report ',
       hasSubMenu: true,
       subItems: [
      
-        { id: 'Report1', label: 'Report1', path: '/report1' },
-        { id: 'Report2', label: 'Report2', path: '/report2' },
-        { id: 'Report3', label: 'Report3', path: '/report3' },   
+        { id: 'Report1', label: 'Personal & Academic Info', path: '/report1' },
+        { id: 'Report2', label: 'Course & Details', path: '/report2' },
+        { id: 'Report3', label: 'Uploaded Documents', path: '/report3' },   
 
       ]
     },
 
     {
       id: 'PG Medical Students',
-      label: 'PG Medical Students',
+      label: 'PG Medical Students Application',
       hasSubMenu: true,
       subItems: [
      
@@ -91,7 +91,7 @@ const Sidebar = () => {
 
     {
       id: 'Nursing(Bsc)-4YDC',
-      label: 'Nursing(Bsc)-4YDC',
+      label: 'Nursing (Bsc)-4YDC',
       hasSubMenu: true,
       subItems: [
   
@@ -103,7 +103,7 @@ const Sidebar = () => {
     },
     { 
       id:'Nursing(Bsc)',
-      label:'Nursing(Bsc)',
+      label:'Nursing (Bsc)',
       hasSubMenu:true,
       subItems: [
         { id: 'NursingSecondYear', label: ' Nursing Secondyear', path: '/nurs2y' },
@@ -114,7 +114,7 @@ const Sidebar = () => {
  
     {
       id: 'Physiotherapy(BPT)',
-      label: 'Physiotherapy(BPT)',
+      label: 'Physiotherapy (BPT)',
       hasSubMenu: true,
       subItems: [
   
@@ -143,7 +143,7 @@ const Sidebar = () => {
     },
     { 
       id:'Medical Laboratory Technology(Bsc)',
-      label:'Medical Laboratory Technology(Bsc)',
+      label:'Medical Laboratory Technology(MLT)',
       hasSubMenu:true,
       subItems: [
    
@@ -155,7 +155,7 @@ const Sidebar = () => {
 
     { 
       id:'HospitalManagementCourse',
-      label:'Hospital Management Course',
+      label:'Hospital Management Course (HMC)',
       hasSubMenu:true,
       subItems: [
         { id: 'HMCFirstYearSemester1', label: ' HMC FirstYear Semester1', path: '/hmc1' },
@@ -167,7 +167,7 @@ const Sidebar = () => {
 
     { 
       id:'Master of Physiotherapy ',
-      label:'Master of Physiotherapy(MPT)',
+      label:'Master of Physiotherapy (MPT)',
       hasSubMenu:true,
       subItems: [
         { id: 'MPTFirstYear', label: ' MPT FirstYear', path: '/mpt1' },
@@ -177,7 +177,7 @@ const Sidebar = () => {
     },
     { 
       id:'Nuclear Medicine Technology(PG)',
-      label:'Nuclear Medicine Technology(PG)',
+      label:'Nuclear Medicine Technology (PG)',
       hasSubMenu:true,
       subItems: [
         { id: 'NMTTFirstYear', label: ' NMT FirstYear', path: '/nmt1' },

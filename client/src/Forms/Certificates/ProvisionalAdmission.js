@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProvisionalAdmission = () => {
   return (
-    <div className="max-w-6xl mx-auto p-6 bg-white text-black border border-gray-300 shadow-lg text-sm">
+    <div className="max-w-3xl mx-auto mt-16 p-10 border border-gray-300 text-black bg-white shadow-lg page-break">
       <h2 className="text-center font-bold text-lg uppercase mb-2">
         Medical Counselling Committee (MCC), DGHS, Ministry of Health & Family Welfare, Government of India
       </h2>

@@ -3,7 +3,7 @@ import Header from '../../components/Header';// Assuming you have a Header compo
 
 const ObserverPermission = () => {
   return (
-    <div className="max-w-3xl mx-auto p-10 border border-gray-300 text-black bg-white shadow-lg page-break">
+    <div className="max-w-3xl mx-auto mt-16 p-10 border border-gray-300 text-black bg-white shadow-lg page-break">
       {/* Assuming Header component is similar to the one in CustodianCertificate */}
       <Header /> 
 

@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 
 const MedicalFeeNote = () => {
   return (
-    <div className="max-w-2xl mx-auto p-10 text-black bg-white shadow-lg border border-gray-300">
+    <div className="max-w-3xl mx-auto mt-16 p-10 border border-gray-300 text-black bg-white shadow-lg page-break">
       <Header />
 
       <div className="flex justify-end text-sm font-medium mb-6">
